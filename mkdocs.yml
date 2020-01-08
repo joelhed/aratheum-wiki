@@ -1,5 +1,5 @@
-site_name: The Word of Iron 
-repo_url: https://gitlab.com/midnightprioriem/the-word-of-iron-wiki
+site_name: Valmere 
+repo_url: https://gitlab.com/midnightprioriem/valmere-wiki
 use_directory_urls: True 
 markdown_extensions:
         - smarty
@@ -9,13 +9,24 @@ markdown_extensions:
 extra_css:
         - css/dark_theme.css
         - css/codehilite.css
+        - css/sidebar.css
+        - css/mobile_toc.css
+extra_javascript:
+
+        - js/jquery-3.4.1.js
+        - js/sidebar.js
+        
 theme: 
         name: material
+        custom_dir: theme
+        logo: 
+                icon: 'public'
         palette:
                 primary: 'blue grey'
                 accent: 'deep purple'
 plugins:
         - search
-        - awesome-pages
         - macros
         - autolinks
+
+nav:
