@@ -8,6 +8,7 @@ from mkdocs.config import config_options, Config
 from mkdocs.plugins import BasePlugin
 
 from bs4 import BeautifulSoup
+import markdown
 
 class NavExtra(BasePlugin):
 
@@ -76,6 +77,19 @@ class NavExtra(BasePlugin):
                     scrollwrap.insert(0, nav_extra)
             else:
                 print("WARNING: Table of Contents sidebar not found")
+        
+        
+        for link in soup.findAll("a", {"class" : None}, href=lambda x: not x.startswith('http') ):
+            md_src_path = link['href'][3:-1] + ".md"
+            md_link_path = os.path.join(os.path.dirname(page.file.abs_src_path), md_src_path )
+            if os.path.isfile(md_link_path):
+                print(md_link_path + " exists, attempting to create tooltip text")
+                input_file = codecs.open(md_link_path, mode="r", encoding="utf-8")
+                text = input_file.read()
+                html = markdown.markdown(text)
+                link_soup = BeautifulSoup(html, 'html.parser')
+                print(link_soup.prettify(link_soup.original_encoding))
+
         souped_html = soup.prettify(soup.original_encoding)
         return souped_html 
 

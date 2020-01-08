@@ -8,6 +8,8 @@ This is a hello world
 
 For full documentation visit [mkdocs.org](https://mkdocs.org).
 
+[test](test.md)
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
