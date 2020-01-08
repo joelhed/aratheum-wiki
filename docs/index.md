@@ -1,7 +1,10 @@
-image: "https://upload.wikimedia.org/wikipedia/commons/e/ec/RandomBitmap.png" 
-info: "test.html"
-
 # Welcome to MkDocs
+
+<div markdown="1" class="sidebar">
+## Welcome to MkDocs
+### Hello World!
+This is a hello world
+</div>
 
 For full documentation visit [mkdocs.org](https://mkdocs.org).
 
