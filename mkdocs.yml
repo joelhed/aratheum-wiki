@@ -8,22 +8,16 @@ markdown_extensions:
         - attr_list
         - extra
 extra_css:
-        - css/dark_theme.css
+        - css/theme.css
         - css/codehilite.css
         - css/sidebar.css
-        - css/mobile_toc.css
 extra_javascript:
-
         - js/jquery-3.4.1.js
-        - js/sidebar.js
         
 theme: 
         name: material
         logo: 
                 icon: 'public'
-        palette:
-                primary: 'blue grey'
-                accent: 'deep purple'
 plugins:
         - search
         - macros

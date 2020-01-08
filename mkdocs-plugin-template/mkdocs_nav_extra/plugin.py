@@ -68,9 +68,11 @@ class NavExtra(BasePlugin):
         soup = BeautifulSoup(output_content, 'html.parser')
         nav_extra = soup.find("div", {"class": "sidebar"})
         if nav_extra:
-            soup_toc = soup.find("nav", {"class" : "md-nav--secondary"})
-            soup_toc.insert(0, nav_extra)
-            print(soup)
+            soup_toc = soup.find("div", {"data-md-component" : "toc"})
+            if soup_toc:
+                soup_toc.insert(0, nav_extra)
+            else:
+                print("WARNING: Table of Contents sidebar not found")
         souped_html = soup.prettify(soup.original_encoding)
         return souped_html 
 
