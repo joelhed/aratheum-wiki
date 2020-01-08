@@ -16,6 +16,7 @@ extra_javascript:
         
 theme: 
         name: material
+        custom_dir: 'theme'
         logo: 
                 icon: 'public'
 plugins:

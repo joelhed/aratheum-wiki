@@ -1,3 +1,12 @@
+.md-sidebar--secondary[data-md-component="toc"]
+{
+	width: 16rem;
+	margin-left: 67rem;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+	display: none;
+}
 
 .sidebar {
 	background-color: var(--secondaryDark);
@@ -5,6 +14,25 @@
 	border-radius: 15px;
 	margin: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, .3);
+}
+
+.sidebar table {
+	width: calc(100% - 40px);
+	margin-left:20px;
+	margin-right: 20px;
+}
+
+.sidebar td {
+	font-size: 1.25em;
+	padding-top: 1em;
+}
+
+.sidebar td:first-child {
+	font-weight: bold;
+}
+
+.sidebar td:last-child {
+	text-align: right;
 }
 
 .sidebar a {
