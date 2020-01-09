@@ -69,6 +69,11 @@ body {
 	color: var(--primaryBlue);
 }
 
+a[href$=".md"]
+{
+	color: var(--secondaryBlue);
+}
+
 .md-typeset a:active, .md-typeset a:hover {
 	color: var(--secondaryBlue);
 }

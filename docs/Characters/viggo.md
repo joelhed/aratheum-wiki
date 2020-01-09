@@ -4,22 +4,6 @@ Viggo is a field medic in the Ilrian Military. In a previous life, he was known 
 
 ----
 
-<div>
-<span class="tooltip" title="This is my span's tooltip message!">Some text</span>
-</div>
-
-<div>
-<a class="tooltip" data-tooltip-content="#tooltip_content">This span has a tooltip with HTML when you hover over it!</a>
-</div>
-
-<div class="tooltip_templates">
-    <div id="tooltip_content">
-    <h1> Hello World!</h1>
-    <p>Viggo's childhood with the Church was spent mostly studying the Caetera, history, and medicine. His given name was Ino. Although he grew up without many close friends, he found comfort in his isolation. Prone to reading or writing for hours at a time, he often missed his scheduled studies and would wander the grounds. [Master Renuin](master_renuin.md) took Ino in at a young age, filling a psuedo-father figure role.
-    </p>
-    </div>
-</div>
-
 <div markdown="1" class="sidebar">
 ![Viggo](viggo.png)
 ## Viggo

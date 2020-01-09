@@ -40,7 +40,7 @@ class LinkTooltips(BasePlugin):
 
                 # This block is constructing the tooltip
                 #TODO: possibly add numbering so that tooltips for the same link are unique
-                tooltip_id = link.contents[0].strip() + '_tooltip_id'
+                tooltip_id = link.contents[0].strip().replace(" ", "") + '_tooltip_id'
                 print(repr(tooltip_id))
                 link['class'] = link.get('class', []) + ['tooltip']
                 link['data-tooltip-content'] = '#' + tooltip_id
@@ -50,7 +50,7 @@ class LinkTooltips(BasePlugin):
                 tooltip_template.append(tooltip_content)
                 tooltip_content.append(header)
                 tooltip_content.append(preview)
-                link.insert_after(tooltip_template)
+                soup.body.append(tooltip_template)
 
         souped_html = soup.prettify(soup.original_encoding)
         return souped_html 
