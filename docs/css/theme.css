@@ -9,6 +9,11 @@
 
 .tooltip_templates { display: none; }
 
+a {
+  -webkit-user-select: none; /* disable selection/Copy of UIWebView */
+  -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
+}
+
 .tooltipster-box {
     background: #3c38369F !important;
     border: 0px  !important;
@@ -43,6 +48,43 @@
 
 .md-content {
 	background-color: var(--primaryDark); 
+}
+
+.md-typeset blockquote {
+    padding-left: .6rem;
+    border-left: .2rem solid var(--primaryLight);
+    color: var(--primaryLight);
+    opacity: 70%;
+}
+
+.md-typeset hr {
+  position: relative;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.75);
+  width: 50%;
+}
+
+hr:before,
+hr:after {
+  position: absolute;
+  bottom: -5px;
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-width: 0 1px 1px 0;
+  border-color: rgba(128, 128, 128, 0.75);
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+
+.md-typeset hr:before {
+  transform: translateZ(0) rotate(-45deg);
+  left: -10px;
+}
+
+.md-typeset hr:after {
+  transform: translateZ(0) rotate(135deg);
+  right: -10px;
 }
 
 body {
