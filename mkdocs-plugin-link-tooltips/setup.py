@@ -2,15 +2,10 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='mkdocs-nav-extra',
+    name='mkdocs-link-tooltips',
     version='0.1.0',
     description='A MkDocs plugin',
-    long_description='',
     keywords='mkdocs',
-    url='',
-    author='Your Name',
-    author_email='your email',
-    license='MIT',
     python_requires='>=2.7',
     install_requires=[
         'mkdocs>=1.0.4'
@@ -30,7 +25,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'mkdocs.plugins': [
-            'nav-extra = mkdocs_nav_extra.plugin:NavExtra'
+            'link-tooltips = mkdocs_link_tooltips.plugin:LinkTooltips'
         ]
     }
 )

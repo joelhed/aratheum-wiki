@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+<script>
+        $(document).ready(function() {
+            $('.tooltip').tooltipster(
+		    {
+			    maxWidth: 500,
+			    animationDuration: 0,
+			    interactive: true,
+			    delay: 100
+		    });
+        });
+</script>
+{% endblock %}

@@ -7,6 +7,42 @@
 	--secondaryBlue: #4f8ec2;
 }
 
+.tooltip_templates { display: none; }
+
+.tooltipster-box {
+    background: #0000002F !important;
+    border: 0px  !important;
+    border-radius: 4px !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+.tooltipster-box p {
+	color: var(--primaryLight);
+	font-size: 1.3em;
+}
+
+.tooltipster-box h1 {
+	color: var(--primaryLight)
+}
+
+.tooltipster-box a {
+	color: var(--primaryBlue)
+}
+.tooltipster-box a:hover {
+	color: var(--secondaryBlue)
+}
+
+.tooltipster-arrow-border {
+    border: 0px !important;
+}
+
+.tooltipster-arrow-background {
+    border-top-color: #0000002F !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+}
+
 .md-content {
 	background-color: var(--primaryDark); 
 }

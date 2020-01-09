@@ -6,3 +6,6 @@ pip3 install mkdocs \
 	mkdocs-macros-plugin \
 	mdx_truly_sane_lists \
 	./mkdocs-plugin-autolinks \
+	./mkdocs-plugin-link-tooltips \
+	./mkdocs-plugin-sidebar \
+	beautifulsoup4 \

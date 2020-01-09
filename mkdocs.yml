@@ -11,9 +11,10 @@ extra_css:
         - css/theme.css
         - css/codehilite.css
         - css/sidebar.css
+        - css/tooltipster.bundle.min.css
 extra_javascript:
         - js/jquery-3.4.1.js
-        
+        - js/tooltipster.bundle.js 
 theme: 
         name: material
         custom_dir: 'theme'
@@ -23,6 +24,7 @@ plugins:
         - search
         - macros
         - autolinks
-        - nav-extra 
+        - sidebar
+        - link-tooltips 
 
 nav:
