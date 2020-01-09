@@ -26,5 +26,6 @@ plugins:
         - autolinks
         - sidebar
         - link-tooltips 
+        - link-dictionary
 
 nav:

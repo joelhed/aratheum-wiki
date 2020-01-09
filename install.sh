@@ -8,4 +8,5 @@ pip3 install mkdocs \
 	./mkdocs-plugin-autolinks \
 	./mkdocs-plugin-link-tooltips \
 	./mkdocs-plugin-sidebar \
+  ./mkdocs-plugin-link-dictionary \
 	beautifulsoup4 \
