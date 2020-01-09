@@ -1,6 +1,6 @@
 # Master Renuin 
 
-Master Renuin is a teacher and scholar who works as a [Caeteran](caeteran.md) priest.
+Master Renuin is a teacher and scholar who works as a [Caeteran](caeteran.md) priest. He raised and taught [Viggo](viggo.md) in the ways of the Caetera before he was excommunicated from the church.
 
 ----
 
