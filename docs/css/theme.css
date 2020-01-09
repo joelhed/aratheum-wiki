@@ -10,11 +10,11 @@
 .tooltip_templates { display: none; }
 
 .tooltipster-box {
-    background: #0000002F !important;
+    background: #3c38362F !important;
     border: 0px  !important;
-    border-radius: 4px !important;
-    -webkit-backdrop-filter: blur(20px) !important;
-    backdrop-filter: blur(20px) !important;
+    border-radius: 15px !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    backdrop-filter: blur(12px) !important;
 }
 
 .tooltipster-box p {
@@ -38,9 +38,7 @@
 }
 
 .tooltipster-arrow-background {
-    border-top-color: #0000002F !important;
-    -webkit-backdrop-filter: blur(20px) !important;
-    backdrop-filter: blur(20px) !important;
+    border-top-color: #3c38362F !important;
 }
 
 .md-content {
