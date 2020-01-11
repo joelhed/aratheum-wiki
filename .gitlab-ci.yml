@@ -4,7 +4,7 @@ build:
   - echo "Installing dependencies"
   - ./install.sh 
   - mkdocs build 
-  - cp -rf site/* /var/www/html/valmere
+  - sudo cp -rf site/* /var/www/html/valmere
 
   tags:
   - shell
