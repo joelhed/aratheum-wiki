@@ -11,9 +11,10 @@ extra_css:
         - css/theme.css
         - css/codehilite.css
         - css/sidebar.css
+        - css/link-tooltips.css
         - css/tooltipster.bundle.min.css
+        - css/tooltipster-sideTip-shadow.min.css
 extra_javascript:
-        - js/jquery-3.4.1.js
         - js/tooltipster.bundle.js 
 theme: 
         name: material
@@ -25,7 +26,7 @@ plugins:
         - macros
         - autolinks
         - toc-sidebar
-        - link-tooltips 
+        - tooltipster-links 
         - link-dictionary
 
 nav:

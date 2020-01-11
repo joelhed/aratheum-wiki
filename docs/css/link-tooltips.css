@@ -1,0 +1,33 @@
+.tooltip_templates { display: none; }
+
+a {
+  -webkit-user-select: none; [> disable selection/Copy of UIWebView <]
+  -webkit-touch-callout: none; [> disable the IOS popup when long-press on a link <]
+}
+
+.tooltipster-box {
+    background: #3c38369F !important;
+    border: 0px  !important;
+    border-radius: 15px !important;
+    -webkit-backdrop-filter: blur(6px) !important;
+    backdrop-filter: blur(6px) !important;
+}
+
+.tooltipster-box p {
+	color: var(--primaryLight);
+	font-size: 1.3em;
+}
+
+.tooltipster-box h1 {
+	color: var(--primaryLight)
+}
+
+.tooltipster-box a {
+	pointer-events: none;
+  	cursor: default;
+}
+
+.tooltipster-arrow {
+    display: none !important;
+}
+
