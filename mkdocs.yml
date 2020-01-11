@@ -24,7 +24,7 @@ plugins:
         - search
         - macros
         - autolinks
-        - sidebar
+        - toc-sidebar
         - link-tooltips 
         - link-dictionary
 
