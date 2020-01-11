@@ -25,7 +25,10 @@ class LinkTooltips(BasePlugin):
         soup = BeautifulSoup(output_content, 'html.parser')
         
         for link in soup.findAll("a", {"class" : None}, href=lambda x: not x.startswith('http') ):
-            md_src_path = link['href'][3:-1] + ".md"
+            if link['href'][0] == ".":
+                md_src_path = link['href'][3:-1] + ".md"
+            else:
+                md_src_path = link['href'][:-1] + ".md"
             md_link_path = os.path.join(os.path.dirname(page.file.abs_src_path), md_src_path )
             if os.path.isfile(md_link_path):
 
@@ -48,8 +51,10 @@ class LinkTooltips(BasePlugin):
                 tooltip_template['class'] = ['tooltip_templates']
                 tooltip_content = soup.new_tag('div', id=tooltip_id)
                 tooltip_template.append(tooltip_content)
-                tooltip_content.append(header)
-                tooltip_content.append(preview)
+                if header:
+                		tooltip_content.append(header)
+                if preview:
+                		tooltip_content.append(preview)
                 soup.body.append(tooltip_template)
 
         souped_html = soup.prettify(soup.original_encoding)
