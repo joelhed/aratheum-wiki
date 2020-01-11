@@ -2,9 +2,9 @@ build:
   script:
   - echo "Building Valmere Wiki"
   - echo "Installing dependencies"
-  - sudo ./install.sh 
+  - ./install.sh 
   - mkdocs build 
-  - sudo -rf cp site/* /var/www/html/valmere
+  - cp -rf site/* /var/www/html/valmere
 
   tags:
   - shell
