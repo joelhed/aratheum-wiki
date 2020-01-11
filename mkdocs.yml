@@ -27,6 +27,6 @@ plugins:
         - autolinks
         - toc-sidebar
         - tooltipster-links 
-        - link-dictionary
+        - vim-md-tags 
 
 nav:
