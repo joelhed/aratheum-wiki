@@ -1,0 +1,12 @@
+build:
+  script:
+  - echo "Building Valmere Wiki"
+  - echo "Installing dependencies"
+  - sudo ./install.sh 
+  - mkdocs build 
+  - sudo -rf cp site/* /var/www/html/valmere
+
+  tags:
+  - shell
+  - digitalocean
+
