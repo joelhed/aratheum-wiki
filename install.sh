@@ -7,6 +7,5 @@ pip3 install mkdocs \
 	mdx_truly_sane_lists \
 	mkdocs-toc-sidebar-plugin \
 	mkdocs-tooltipster-links-plugin \
-	./mkdocs-plugin-autolinks \
-	./mkdocs-plugin-link-dictionary \
-	beautifulsoup4 \
+	mkdocs-autolinks-plugin \
+	mkdocs-vim-md-tags-plugin \
