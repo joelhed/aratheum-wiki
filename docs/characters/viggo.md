@@ -12,7 +12,7 @@ Viggo is a field medic in the Ilrian Military. In a previous life, he was known 
 |-|-|
 | Also Known As | Ino |
 | Race  | Human  |
-| Profession | [Caeteran Acolyte](caeteran.md) <br> Field Medic |
+| Profession | [Caeteran Acolyte](caeteran.md) <br> [Field Medic](the_royal_ilrian_military.md) |
 | Birthplace | [Kador](kador.md) |
 | Parents | [Misha (Mother)](misha.md) <br> [Kazamir (Father)](kazamir.md)|
 </div>
@@ -36,6 +36,6 @@ At some point in his early twenties, Ino changed his name to Viggo and became a 
 ----
 
 ### Ilrian Military
-After leaving Turin, Viggo made his way to [Achenar](achenar.md) to join [The Royal Army](the_royal_ilrian_army.md). He became a medic, utilizing the skills he had learned in medicine during his studies at the church. 
+After leaving Turin, Viggo made his way to [Achenar](achenar.md) to join [The Royal Army](the_royal_ilrian_military.md). He became a medic, utilizing the skills he had learned in medicine during his studies at the church. 
 
 Eventually, he would be drafted into a reserve force of two thousand soldiers to march south to fight in the Siege of [Valla](valla.md).

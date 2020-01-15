@@ -18,23 +18,16 @@ See the links below to explore the world of Valmere. I'll be honest, I don't act
 [Valmere at a Glance](world_overview.md)
 
 ### The World of Valmere
-  * [[world:World Map]]
-  * Nations of Valmere
-    * [Ilris](ilris.md)
-    * [The Kadoran Empire](kador.md)
-  * [Creation Myth]]
-  * [[world:History]]
-  * Organizations
-    * [[the_royal_army|Erathan Military]]
-    * [[organization:the_church_of_the_triumvirate|The Church of the Triumvirate]]
-    * [[organization:the_order_of_ataxis|The Order of Ataxis]]
-    * [[organization:the_venadori|The Venadori]]
+  
+* [World Map](world_map.md)
+* Nations of Valmere
+  * [Ilris](ilris.md)
+  * [The Kadoran Empire](kador.md)
+* [Creation Myth](creation_myth.md)
+* [World History](world_history.md)
+* Organizations
+  * [[the_royal_army|Erathan Military]]
+  * [[organization:the_church_of_the_triumvirate|The Church of the Triumvirate]]
+  * [[organization:the_order_of_ataxis|The Order of Ataxis]]
+  * [[organization:the_venadori|The Venadori]]
 
-=== People and Objects ===
-  * [[world:Characters]]
-  * [[world:NPCs]]
-  * [[world:Races]]
-  * [[world:Creatures]]
-  * [[world:Things]]
-
-[[Development]]
