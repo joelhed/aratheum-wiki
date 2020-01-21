@@ -3,6 +3,17 @@
 	/*width: 16rem;*/
 	/*margin-left: 67rem;*/
 }
+@media only screen and (min-width: 60em)
+{
+	.md-sidebar--secondary {
+		width: 18rem !important;
+	}
+
+	.md-content {
+		margin-right: 18rem !important;
+	}
+}
+
 
 @media only screen and (max-width: 60em)
 {
