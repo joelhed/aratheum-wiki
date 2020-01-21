@@ -1,7 +1,16 @@
 .md-sidebar--secondary[data-md-component="toc"]
 {
-	width: 16rem;
-	margin-left: 67rem;
+	/*width: 16rem;*/
+	/*margin-left: 67rem;*/
+}
+
+@media only screen and (max-width: 60em)
+{
+	.md-sidebar--secondary {
+		display: block;
+		position: relative;
+
+	}
 }
 
 .md-sidebar__scrollwrap::-webkit-scrollbar {
