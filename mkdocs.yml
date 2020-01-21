@@ -14,8 +14,10 @@ extra_css:
         - css/link-tooltips.css
         - css/tooltipster.bundle.min.css
         - css/tooltipster-sideTip-shadow.min.css
+        - css/humblehr.css
 extra_javascript:
         - js/tooltipster.bundle.js 
+        - js/humblehr.js
 theme: 
         name: material
         custom_dir: 'theme'

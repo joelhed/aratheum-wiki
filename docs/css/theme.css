@@ -24,35 +24,6 @@ a {
     opacity: 70%;
 }
 
-.md-typeset hr {
-  position: relative;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.75);
-  width: 50%;
-}
-
-hr:before,
-hr:after {
-  position: absolute;
-  bottom: -5px;
-  width: 10px;
-  height: 10px;
-  display: block;
-  border-width: 0 1px 1px 0;
-  border-color: rgba(128, 128, 128, 0.75);
-  border-style: solid;
-  box-sizing: border-box;
-  border-radius: 100%;
-}
-
-.md-typeset hr:before {
-  transform: translateZ(0) rotate(-45deg);
-  left: -10px;
-}
-
-.md-typeset hr:after {
-  transform: translateZ(0) rotate(135deg);
-  right: -10px;
-}
 
 body {
 	color: var(--primaryLight);
