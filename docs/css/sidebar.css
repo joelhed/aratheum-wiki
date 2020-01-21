@@ -9,7 +9,9 @@
 	.md-sidebar--secondary {
 		display: block;
 		position: relative;
-
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
