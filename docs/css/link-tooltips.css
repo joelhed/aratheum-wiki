@@ -1,8 +1,8 @@
 .tooltip_templates { display: none; }
 
 a {
-  -webkit-user-select: none; [> disable selection/Copy of UIWebView <]
-  -webkit-touch-callout: none; [> disable the IOS popup when long-press on a link <]
+  -webkit-user-select: none; 
+  -webkit-touch-callout: none; 
 }
 
 .tooltipster-box {
@@ -23,8 +23,10 @@ a {
 }
 
 .tooltipster-box a {
-	pointer-events: none;
-  	cursor: default;
+	color: var(--primaryLight) !important;
+	border-bottom: none !important; 
+	pointer-events: none !important;
+	cursor: default !important;
 }
 
 .tooltipster-arrow {

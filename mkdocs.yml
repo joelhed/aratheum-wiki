@@ -8,13 +8,13 @@ markdown_extensions:
         - attr_list
         - extra
 extra_css:
-        - css/theme.css
         - css/codehilite.css
         - css/sidebar.css
         - css/link-tooltips.css
         - css/tooltipster.bundle.min.css
         - css/tooltipster-sideTip-shadow.min.css
-        - css/humblehr.css
+        - css/mkdocs-material-themes/gruvbox_colors.css
+        - css/mkdocs-material-themes/material_theme.css
 extra_javascript:
         - js/tooltipster.bundle.js 
         - js/humblehr.js
