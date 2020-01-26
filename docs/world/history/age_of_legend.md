@@ -1,0 +1,7 @@
+# The Age of Legend
+
+**The Age of Legend** (*LE* 5,000+) is the first recognized [Era](era.md) of history in [Valmere](valmere.md). 
+
+The earliest arrival of humans in [Valmere](valmere.md) has been approximated at around 10,000 years since the beginning of the [Age of Order](age_of_order.md). Even modern historians are unable to deduce the origin of humanity, only that with their arrival, [Entra](entra.md) came into existence. For a look at the origins of humanity and Entra, see [Metaphysics of Valmere](metaphysics_of_valmere.md). Early humans were born into a tumultuous environment. Human civilizations started out as nomadic hunter-gatherer tribes, but as powerful Entra users began to emerge, great empires began to rise, each worshiping the most powerful magi. These Empires took the form of [Imperial Cults](imperial_cults.md), where the strongest wielders of Entra were worshiped as deities, referred to as [Atun](atun.md), which best translates to “Light of God” in Vazhun. Worshipers believed that Atuns were divinely sanctioned by the Creator, an all powerful being known as Teth.
+
+During the Age of Legend, it is purported that the landscape of Valmere looked quite different. Geological evidence corroborates written accounts that many of the land features in Valmere were shifted by elemental Magi for unknown reasons. There are a few theories that even suggest that Valmere was once connected to a much larger land mass.
