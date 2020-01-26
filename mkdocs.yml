@@ -1,5 +1,5 @@
-site_name: Valmere 
-repo_url: https://gitlab.com/midnightprioriem/valmere-wiki
+site_name: Valmere Wiki 
+repo_url: https://github.com/midnightprioriem/valmere-wiki
 use_directory_urls: True 
 markdown_extensions:
         - smarty
