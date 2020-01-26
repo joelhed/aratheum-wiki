@@ -1,3 +1,0 @@
-# Metaphysics of Valmere
-
-
