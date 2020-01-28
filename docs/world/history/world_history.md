@@ -15,11 +15,12 @@ The Age of Balance marks the rise of the first coordinated human civilizations, 
 The Dark Age was a short Era proceeding the fall of the [Raethan Empire](raeth.md) and the [Veritas Guide](veritas_guild.md), and the loss of [Entra](entra.md). Much of the technological progress during the Age of Balance was lost or destroyed during this time as the remnants of human civilization vied for power.
 
 ## [The Sovereign Age](sovereign_age.md) (*SE*, 1678 years)
-The Age of Order (O.E, 286 years)
-In this new Age of Order, Humanity began to rebuild Erathis from the remnants of the Great War that divided the nation. Science and Politics became the driving forces behind progress.
 
-In the years after the great war, the Roshan Empire grew to one that rivaled the size of Erathis. Only 20 years ago, the current god-king of Roshan waged war against Erathis. In a short two years, Erathis brought the Roshan armies down and pushed them back across the sea.
+Out of the ashes of the Dark Age rose a collective of city-states, that, in a tentative alliance, formed the [Sovereignty](the_sovereignty.md). This collective remained in relatively peaceful stablity until the formation of the [Kadoran Empire](kador.md) some 1500 years later, and the [War of Faith](war_of_faith.md), causing the [Divergence](the_divergence.md), the breaking of Sovereignty.
 
-Now, the Roshan empire has gathered in even larger forces and make landfall in Erathis again. Melek (title for Emperor) Azah, The Whispering Emperor, believes that when the sun rises and sets on Roshan, that Odeth will rise up and bring a new age of Magic to the world, with Azah as his first hand.
+## [The Age of Order](age_of_order.md) (O.E, 286 years)
 
-In the nearly 300 years since The Age of Balance ended, no Human has seen a single elf. The occasional dwarf will make contact with the Humans of Northern cities such as Northhaven or Goldcrest, but these occurrences are extremely rare.
+The Age of Order is the current [Era](era.md) of [Valmere](valmere.md). In this Era, two powerful nations, [Ilris](ilris.md) and [the Kadoran Empire](kador.md) vie for control over Valmere. The Kadoran Empire, a theocracy, is on a religious conquest subjucate Ilris and the surrounding regions, thus beginning the [War for the Gate]( 
+
+*See also: [world history](world_history.md)*
+

@@ -2,9 +2,13 @@
 
 The **Sovereign Age** (*[SE](era.md), 1678 years*) was a period marked by the rise of [the Sovereignty](the_sovereignty.md), and ending with the [War of Faith](war_of_faith.md), which marked the collapse of the Sovereignty following [Jeza Daro's](jeza_daro.md) rise to power and formation of the [Kadoran Empire](kador.md).
 
+As the [Dark Age](dark_age.md) came to an end, a collective of city-states known as the [Sovereignty](the_sovereignty.md) came to power. Each of them operated individually, were able to establish strong alliances and prosper for over 1500 years. [Entra](entra.md) had long since been gone from Valmere, so science became the driving factor for civilization.
 
-A man known as Jeza Daro claimed to be a prophet of a new God known as Odeth. In a short number of years, Jeza gained a devoted sect of followers. The capital city-state and the human city-state defected from the Church and declared war on the Triumvirate and any who believed in the Caetera, led by Daro. The great War of Faith began, chaos rivaling the Age of Legends spread across all of Valmere, leaving entire swaths of civilization in ruin.
+The [Church of the Triumvirate](the_church_of_the_triumvirate.md), barely a shadow of their former power, retained its members by taking in members of society that had nowhere else to go. By this point in time, the [Sanguine Order](sanguine_order.md) is so secretive that the general populace in unaware that they even exist. Most of Valmere believes that the Church is harmless, preaching of an outdated religion. 
 
-The Age of Balance ended with The Divergence, when the races of elves and dwarves left the ruin of Valmere Midland and secluded themselves away from the remnants of Erathis. Over the following centuries, the Humans of Valmere rebuilt the nation of Erathis. Jeza Daro took his remaining followers across the sea into the far East to found the Roshan Empire. The Church, stripped of all real power, was left to continue on without the backing of the Government. By this time, Entra was all but gone from the world, and the domain of Science has become the driving force behind civilization.
+Approximately ten years before the end of the Sovereign Age, a  man known as [Jeza Daro](jeza_daro.md), a well-known military strategist, claimed to be a prophet of a new god known as [Odeth](odeth_god.md), following a religion known as [the Path](the_path.md). In a short number of years, Jeza gained a devoted sect of followers. Eventually, he amassed a great enough following---spreading dissent through the Sovereignty---to start a war.. The great [War of Faith](war_of_faith.md) began, chaos spreading across all of Valmere, leaving entire swaths of civilization in ruin.
 
+Ultimately, the war ended with [the Divergence](the_divergence.md). The fragments of the Sovereignty split into different regions---the [Stormfall](stormfall.md), [Ilris](ilris.md), [the Free Cities](the_free_cities.md), and [the Kadoran Empire](kador.md), whose first Emperor was Daro himself. 
+
+*See also: [world history](world_history.md)*
 

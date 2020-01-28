@@ -1,4 +1,3 @@
-
 # The Age of Balance
 
 The chaos of the [Age of Legend](age_of_legend.md) could only go on for so long, and the presence of [Entra](entra.md) began to stabilize. The world began to calm somewhat, and more stable civilizations were established. Thus, the **Age of Balance** began.
@@ -9,4 +8,5 @@ For many years, human civilization continued to push back the wilds. The greates
 
 The Raethans ruled for millennia, until the [Eternal War](the_eternal_war.md). The Aeternian uprising caused a world war to break out, laying waste to much of civilization. The war raged for over a hundred years, causing much of human civilization's progress to halt and regress. In an event known as [The Excidium](excidium.md), nearly all Aeternians vanished from Valmere, and the Veritas Guild disbanded, most Magi going into hiding, causing the realms of Raeth to collapse. The Excidium is also attributed to the loss of [Entra](entra.md) in Valmere, and also marks the beginning of [The Dark Age](dark_age.md).
 
+*See also: [world history](world_history.md)*
 
