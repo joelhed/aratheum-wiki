@@ -1,0 +1,17 @@
+# Vazun Lexifer definition
+
+# The core phonemes.
+C = g ʃ z ʒ B θ v r l m n ŋ f p t k ʔ d 
+V =  ɪ y ʊ o œ ɛ a ɑ
+
+# I use the random rate for the contour tones, so I up it just
+# a little bit.
+# random-rate: 15
+
+# $S = CVq?
+
+words: C?VC? CC?VCVCV? 
+
+# reject: yi yí wu wú
+# filter: aq > aá; eq > eé; iq > ií; oq > oó; uq > uú
+# filter: áq > áa; éq > ée; íq > íi; óq > óo; úq > úu
