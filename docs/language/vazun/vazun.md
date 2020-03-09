@@ -1,8 +1,10 @@
 # Vazun
 
-**Vazun** (*/vɑzʌɴ/, VA-zuhn*) is an ancient language spoken by the [Entra](entra.md) users, first appearing during the [Age of Legend](age_of_legend.md). 
+**Vazun** (*/vɑzʌɴ/, VA-zuhn*) is a dead language that was once spoken by the [Raethans](raeth.md), first appearing during the [Age of Balance](age_of_balance.md).
 
-The runic representations of Vazhun can focus the Imbuement of Entra, allowing for more powerful or longer-lasting effects.
+Although it was spoken by the population at large, Vazun was largely created and utilized by the [Veritas Guild](veritas_guild.md) to hone their use of [Entra](entra.md).
+
+The runic representations of Vazun can focus the imbuement of Entra, allowing for more powerful or longer-lasting effects.
 
 ## Phonology
 
