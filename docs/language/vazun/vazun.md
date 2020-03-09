@@ -8,15 +8,11 @@ The runic representations of Vazhun can focus the Imbuement of Entra, allowing f
 
 ### Consonants
 
-θvʂɹzltksmnf
+θ v ʂ ɹ z l t k s m n d f
 
 ### Vowels
 
-ieɑoʌ
-
-### Syllables
-
-CV, CVVC, CVV, CVC, V 
+i e ɑ o ʌ
 
 ### Romanization
 
@@ -38,5 +34,4 @@ CV, CVVC, CVV, CVC, V
 |ɑ|a|
 |o|o|
 |ʌ|u|
-
 
