@@ -1,0 +1,58 @@
+{% extends 'templates/infobox.html' %}
+
+{% block image %}
+<div id="mapid" class="sidebar_map"></div>
+
+<script>
+		var map = L.map('mapid', {
+			    crs: L.CRS.Simple,
+			    minZoom: -5,
+			    maxZoom: 0,
+			    zoom: 0,
+			    maxBoundsViscosity: 1
+		});
+		var bounds = [[0,0], [4331,6000]];
+		map.setMaxBounds(bounds); // prevent panning outside the image area 
+		var image = L.imageOverlay('/images/antuza.png', bounds).addTo(map);
+   		
+		var city = L.latLng([ 1232, 2176 ]);
+		L.marker(city).addTo(map);
+		map.setView( [1232, 2176], -1);
+</script>
+{% endblock %}
+
+{% block content %}
+
+
+<table>
+	{% if country %}
+	<tr><th align="left">Country</th><td>{{ country }}</td></tr>
+	{% endif %}
+	{% if region %}
+	<tr><th align="left">Region</th><td>{{ region }}</td></tr>
+	{% endif %}
+	{% if foundedyear %}
+	<tr><th align="left">Founded</th><td>{{ foundedyear }}</td></tr>
+	{% endif %}
+	{% if foundedby %}
+	<tr><th align="left">Founded by</th><td>{{ foundedby }}</td></tr>
+	{% endif %}
+	{% if government %}
+	<tr><th align="left">Government</th><td>{{ government }}</td></tr>
+	{% endif %}
+	{% if area %}
+	<tr><th align="left"></th>Area<td>{{ area }}</td></tr>
+	{% endif %}
+	{% if population %}
+	<tr><th align="left"></th>Population<td>{{ population }}</td></tr>
+	{% endif %}
+	{% if nicknames %}
+	<tr><th align="left"></th>Nickname(s)<td>{{ nicknames }}</td></tr>
+	{% endif %}
+	{% if demonyms %}
+	<tr><th align="left"></th>Demonym(s)<td>{{ demonyms }}</td></tr>
+	{% endif %}
+</table>
+
+	
+{% endblock %}

@@ -1,0 +1,17 @@
+<div class="sidebar">
+	{% block image %}
+	{% if image %}
+	<a href="{{ image }}">
+		<img class="sidebar_image" src="{{ image }}">
+	</a>
+	{% endif %}
+	{% endblock %}
+
+	{% block title %}
+	<h2> {{ title }} </h2>
+	{% endblock %}
+
+	{% block content %}
+	{% endblock %}
+
+</div>
