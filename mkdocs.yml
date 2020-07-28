@@ -16,13 +16,13 @@ extra_css:
         - css/mkdocs-material-themes/gruvbox_colors.css
         - css/mkdocs-material-themes/material_theme.css
 extra_javascript:
-        - js/tooltipster.bundle.js 
-        - js/humblehr.js
+        - js/tooltipster.bundle.js
 theme: 
         name: material
         custom_dir: 'theme'
         logo: 
                 icon: 'public'
+             
 plugins:
         - search
         - macros
