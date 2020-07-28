@@ -3,6 +3,9 @@
 	/*width: 16rem;*/
 	/*margin-left: 67rem;*/
 }
+.md-nav {
+	visibility: hidden
+}
 @media only screen and (min-width: 60em)
 {
 	.md-sidebar--secondary {

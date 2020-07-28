@@ -6,7 +6,11 @@ import re
 def define_env(env):
     @env.macro
     def city(title, 
-            image="",
+            map="",
+            maph="",
+            mapw="",
+            mapx="",
+            mapy="",
             country="",
             region="",
             foundedyear="",
@@ -27,7 +31,11 @@ def define_env(env):
 
         return template.render(
                 title=a['title'], 
-                image=a['image'],
+                map=a['map'],
+                maph=a['maph'],
+                mapw=a['mapw'],
+                mapx=a['mapx'],
+                mapy=a['mapy'],
                 country=a['country'],
                 region=a['region'],
                 foundedyear=a['foundedyear'],

@@ -1,19 +1,6 @@
-# Kador
+# The Antuzan Empire 
 
-The **Kadoran Empire** is a nation located on the eastern peninsula of [Valmere](valmere.md), east of the [Plys sea](plys_sea.md).
-
-<div markdown="1" class="sidebar">
-![Kador map](kador.png)
-## Kador 
-
-|||
-|-|-|
-| Capital | [Akim](akim.md) |
-| Current Emperor  | [Melek](melek.md) [Azah](azah.md)  |
-| Religion | [The Path](the_path.md) |
-| Government | Theocratic Empire |
-| Established | 4 [*OE*](era.md) 
-</div>
+The **Empire of Antuza** is a nation located on the southern portion of the continent of [Kador](kador.md). 
 
 ## History
 
