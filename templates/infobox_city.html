@@ -3,22 +3,6 @@
 {% block image %}
 <div id="mapid" class="sidebar_map"></div>
 
-<script>
-		var map = L.map('mapid', {
-			    crs: L.CRS.Simple,
-			    minZoom: -5,
-			    maxZoom: 0,
-			    zoom: 0,
-			    maxBoundsViscosity: 1
-		});
-		var bounds = [[0,0], [4331,6000]];
-		map.setMaxBounds(bounds); // prevent panning outside the image area 
-		var image = L.imageOverlay('/images/antuza.png', bounds).addTo(map);
-   		
-		var city = L.latLng([ 1232, 2176 ]);
-		L.marker(city).addTo(map);
-		map.setView( [1232, 2176], -1);
-</script>
 {% endblock %}
 
 {% block content %}
@@ -53,6 +37,23 @@
 	<tr><th align="left"></th>Demonym(s)<td>{{ demonyms }}</td></tr>
 	{% endif %}
 </table>
+
+<script>
+		var map = L.map('mapid', {
+			    crs: L.CRS.Simple,
+			    minZoom: -5,
+			    maxZoom: 0,
+			    zoom: 0,
+			    maxBoundsViscosity: 1
+		});
+		var bounds = [[0,0], [4331,6000]];
+		map.setMaxBounds(bounds); // prevent panning outside the image area 
+		var image = L.imageOverlay('/images/antuza.png', bounds).addTo(map);
+   		
+		var city = L.latLng([ 1232, 2176 ]);
+		L.marker(city).addTo(map);
+		map.setView( [1232, 2176], -1);
+</script>
 
 	
 {% endblock %}
