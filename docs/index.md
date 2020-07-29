@@ -1,8 +1,8 @@
-# Welcome to Valmere
+# Welcome to Asdel
 
 --- 
 
-**Valmere** is a homebrewed fantasy setting. A world of old Magic and war, Valmere attempts to capture a plethora of fantasy elements from my favorite books and games, and cobbles them together into a somewhat unique mishmash of ideas. 
+**Asdel** is a homebrewed fantasy setting. A world of old Magic and war, Asdel attempts to capture a plethora of fantasy elements from my favorite books and games, and cobbles them together into a somewhat unique mishmash of ideas. 
 
 At one point this setting was used to record a few episodes of a DnD 5E podcast. You can listen in at http://mythsandmongrels.com/.
 The podcast follows four player characters: [Marcus](marcus.md), a one-handed soldier hardened from years of War, [Rykker](rykker.md), a crossbow wielding tinkerer with a penchant for shooting nobles, [Sev](sev.md), an undying automaton who's lost his memories and his kin, and [Viggo](viggo.md), paladin of the people with a grudge against the Church that cast him out.
@@ -15,9 +15,9 @@ See the links below to explore the world of Valmere. I'll be honest, I don't act
 
 ## Start Here
 
-[Valmere at a Glance](world_overview.md)
+[Asdel at a Glance](world_overview.md)
 
-### The World of Valmere
+### The World of Asdel 
   
 * [World Map](world_map.md)
 * Nations of Valmere
