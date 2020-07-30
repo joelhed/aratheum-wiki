@@ -16,7 +16,7 @@
   <link href="../../../../assets/images/favicon.png" rel="shortcut icon"/>
   <meta content="mkdocs-1.0.4, mkdocs-material-4.6.3" name="generator"/>
   <title>
-   The Antuzan Empire - Asdel Worldbuilding Wiki
+   The Antuzan Empire - The Aratheum
   </title>
   <link href="../../../../assets/stylesheets/application.adb8469c.css" rel="stylesheet"/>
   <script src="../../../../assets/javascripts/modernizr.86422ebf.js">
@@ -72,7 +72,7 @@
    <nav class="md-header-nav md-grid">
     <div class="md-flex">
      <div class="md-flex__cell md-flex__cell--shrink">
-      <a aria-label="Asdel Worldbuilding Wiki" class="md-header-nav__button md-logo" href="../../../.." title="Asdel Worldbuilding Wiki">
+      <a aria-label="The Aratheum" class="md-header-nav__button md-logo" href="../../../.." title="The Aratheum">
        <i class="md-icon">
         public
        </i>
@@ -85,7 +85,7 @@
      <div class="md-flex__cell md-flex__cell--stretch">
       <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
        <span class="md-header-nav__topic">
-        Asdel Worldbuilding Wiki
+        The Aratheum
        </span>
        <span class="md-header-nav__topic">
         The Antuzan Empire
@@ -147,12 +147,12 @@
        <div class="md-sidebar__inner">
         <nav class="md-nav md-nav--primary" data-md-level="0">
          <label class="md-nav__title md-nav__title--site" for="__drawer">
-          <a class="md-nav__button md-logo" href="../../../.." title="Asdel Worldbuilding Wiki">
+          <a class="md-nav__button md-logo" href="../../../.." title="The Aratheum">
            <i class="md-icon">
             public
            </i>
           </a>
-          Asdel Worldbuilding Wiki
+          The Aratheum
          </label>
          <div class="md-nav__source">
           <a class="md-source" data-md-source="github" href="https://github.com/midnightprioriem/valmere-wiki/" title="Go to repository">
@@ -199,6 +199,11 @@
               </a>
              </li>
              <li class="md-nav__item">
+              <a class="md-nav__link" href="../../../../characters/kazamir/" title="Kazamir">
+               Kazamir
+              </a>
+             </li>
+             <li class="md-nav__item">
               <a class="md-nav__link" href="../../../../characters/marcus/" title="Marcus">
                Marcus
               </a>
@@ -206,6 +211,11 @@
              <li class="md-nav__item">
               <a class="md-nav__link" href="../../../../characters/master_renuin/" title="Master Renuin">
                Master Renuin
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../../../../characters/misha/" title="Misha">
+               Misha
               </a>
              </li>
              <li class="md-nav__item">
@@ -887,6 +897,58 @@
      </div>
      <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
       <div class="md-sidebar__scrollwrap">
+       <div class="sidebar">
+        <div class="sidebar_map" id="mapid">
+        </div>
+        <h2>
+         Antuza
+        </h2>
+        <table>
+         <tr>
+          <th align="left">
+           Capital
+          </th>
+          <td>
+           Roshkas
+          </td>
+         </tr>
+         <tr>
+          <th align="left">
+           Founded Year
+          </th>
+          <td>
+           4
+           <a class="link-tooltip" data-tooltip-content="#OE_tooltip_id" href="/world/history/era">
+            O.E.
+           </a>
+          </td>
+         </tr>
+         <tr>
+          <th align="left">
+           Demonym(s)
+          </th>
+          <td>
+           Antuzan
+          </td>
+         </tr>
+        </table>
+        <script>
+         var map = L.map('mapid', {
+                crs: L.CRS.Simple,
+                minZoom: -5,
+                maxZoom: 0,
+                zoom: 0,
+                maxBoundsViscosity: 1
+        });
+        var bounds = [[0,0], [4331,6000]];
+        map.setMaxBounds(bounds); // prevent panning outside the image area 
+        var image = L.imageOverlay("/images/antuza.png", bounds).addTo(map);
+
+var city = L.latLng([ ,  ]);
+        L.marker(city).addTo(map);
+        map.setView( [, ], -1);
+        </script>
+       </div>
        <div class="md-sidebar__inner">
         <!--
 <nav class="md-nav md-nav--secondary">
@@ -987,6 +1049,26 @@
   </script>
   <script src="../../../../js/tooltipster.bundle.js">
   </script>
+  <div class="tooltip_templates">
+   <div id="OE_tooltip_id">
+    <h1>
+     Era (Dating System)
+    </h1>
+    <p>
+     <a href="valmere.md">
+      Valmere's
+     </a>
+     <strong>
+      dating system
+     </strong>
+     consists of different
+     <em>
+      Eras
+     </em>
+     , each one an indeterminate period of years. Valmere's historians generally mark the ends and beginning of Eras based on major events throughout history.
+    </p>
+   </div>
+  </div>
   <div class="tooltip_templates">
    <div id="theDivergence_tooltip_id">
     <h1>
