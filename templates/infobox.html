@@ -12,6 +12,17 @@
 	{% endblock %}
 
 	{% block content %}
+	<table>
+		{% for key,value in entries.items() %}
+		{% if value %}
+		<tr><th align="left">{{key}}</th><td>{{value}}</td></tr>
+		{% endif %}
+		{% endfor %}
+	</table>
+
+	{% endblock %}
+
+	{% block scripts %}
 	{% endblock %}
 
 </div>

@@ -22,7 +22,7 @@ See the links below to explore the world of Valmere. I'll be honest, I don't act
 * [World Map](world_map.md)
 * Nations of Valmere
   * [Ilris](ilris.md)
-  * [The Kadoran Empire](kador.md)
+  * [The Antuzan Empire](antuza.md)
 * [Creation Myth](creation_myth.md)
 * [World History](world_history.md)
 * Organizations

@@ -2,6 +2,16 @@
 
 The **Empire of Antuza** is a nation located on the southern portion of the continent of [Kador](kador.md). 
 
+{{ nation(
+title="Antuza",
+map="/images/antuza.png",
+maph="4331",
+mapw="6000",
+capital="[[Roshkas]]",
+foundedyear="4 [[era.md|O.E.]]",
+demonyms="Antuzan"
+)}}
+
 ## History
 
 During the period known as [the Divergence](the_divergence.md), [Jeza Daro](jeza_daro.md), a former military strategist for the [Sovereignty](the_sovereignty.md), became a prophet for the god he claimed to know as [Odeth](odeth_god.md). During this period of turmoil, he gained many followers who latched on to the small amount of order and structure he offered, preaching of [the Path](the_path.md).

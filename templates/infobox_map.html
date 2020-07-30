@@ -1,0 +1,30 @@
+{% extends 'templates/infobox.html' %}
+
+{% block image %}
+<div id="mapid" class="sidebar_map"></div>
+
+{% endblock %}
+
+{% block scripts %}
+
+
+
+<script>
+		var map = L.map('mapid', {
+			    crs: L.CRS.Simple,
+			    minZoom: -5,
+			    maxZoom: 0,
+			    zoom: 0,
+			    maxBoundsViscosity: 1
+		});
+		var bounds = [[0,0], [{{maph}},{{mapw}}]];
+		map.setMaxBounds(bounds); // prevent panning outside the image area 
+		var image = L.imageOverlay("{{ map }}", bounds).addTo(map);
+   		
+var city = L.latLng([ {{mapy}}, {{mapx}} ]);
+		L.marker(city).addTo(map);
+		map.setView( [{{mapy}}, {{mapx}}], -1);
+</script>
+
+	
+{% endblock %}

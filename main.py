@@ -20,32 +20,129 @@ def define_env(env):
             population="",
             nicknames="",
             demonyms=""):
-        a = locals()
+
+        info = {
+                "Country" : country,
+                "Region" : region,
+                "Founded Year" : foundedyear,
+                "Government" : government,
+                "Area" : area,
+                "Population" : population,
+                "Nicknames" : nicknames,
+                "Demonym(s)": demonyms
+                }
 
         templateLoader = jinja2.FileSystemLoader(searchpath="./")
         templateEnv = jinja2.Environment(loader=templateLoader)
-        template = templateEnv.get_template('templates/infobox_city.html')
+        template = templateEnv.get_template('templates/infobox_map.html')
 
-        for k in a:
-            a[k] = auto_link(str(a[k]), env.project_dir)
+
+        info = link_dict(info)
 
         return template.render(
-                title=a['title'], 
-                map=a['map'],
-                maph=a['maph'],
-                mapw=a['mapw'],
-                mapx=a['mapx'],
-                mapy=a['mapy'],
-                country=a['country'],
-                region=a['region'],
-                foundedyear=a['foundedyear'],
-                foundedby=a['foundedby'],
-                government=a['government'],
-                area=a['area'],
-                population=a['population'],
-                nicknames=a['nicknames'],
-                demonyms=a['demonyms']
+                title=title, 
+                map=map,
+                maph=maph,
+                mapw=mapw,
+                mapx=mapx,
+                mapy=mapy,
+                entries=info
                 )
+    @env.macro
+    def nation(title, 
+                map="",
+                maph="",
+                mapw="",
+                capital="",
+                languages="",
+                foundedyear="",
+                foundedby="",
+                government="",
+                area="",
+                population="",
+                nicknames="",
+                demonyms="",
+                religion="",
+                rulers="",
+                currency=""):
+
+            info = {
+                    "Capital" : capital,
+                    "Languages" : languages,
+                    "Founded Year" : foundedyear,
+                    "Founded By" : foundedby,
+                    "Government" : government,
+                    "Area" : area,
+                    "Population" : population,
+                    "Nicknames" : nicknames,
+                    "Demonym(s)" : demonyms,
+                    "Religion" : religion,
+                    "Ruler(s)" : rulers,
+                    "Currency" : currency
+                    }
+
+            templateLoader = jinja2.FileSystemLoader(searchpath="./")
+            templateEnv = jinja2.Environment(loader=templateLoader)
+            template = templateEnv.get_template('templates/infobox_map.html')
+
+            info = link_dict(info)
+
+            return template.render(
+                    title=title, 
+                    map=map,
+                    maph=maph,
+                    mapw=mapw,
+                    entries=info
+                    )
+
+    @env.macro
+    def person(title, 
+                image="",
+                spouse="",
+                parents="",
+                relatives="",
+                born="",
+                birthplace="",
+                died="",
+                abilities="",
+                titles="",
+                occupations="",
+                aliases="",
+                groups="",
+                ethnicity=""):
+
+            info = {
+                    "Spouse" : spouse,
+                    "Parent(s)" : parents,
+                    "Relatives" : relatives,
+                    "Born" : born,
+                    "Birthplace" : birthplace,
+                    "Died" : died,
+                    "Abilitie(s)" : abilities,
+                    "Title(s)" : titles,
+                    "Aliases" : aliases,
+                    "Occupation(s)" : occupations,
+                    "Groups" : groups,
+                    "Ethnicity" : ethnicity 
+                    }
+
+            templateLoader = jinja2.FileSystemLoader(searchpath="./")
+            templateEnv = jinja2.Environment(loader=templateLoader)
+            template = templateEnv.get_template('templates/infobox.html')
+
+            info = link_dict(info)
+
+            return template.render(
+                    title=title, 
+                    image=image,
+                    entries=info
+                    )
+
+
+    def link_dict(dict):
+        for k in dict:
+                dict[k] = auto_link(str(dict[k]), env.project_dir)
+        return dict
 
     def calculate_link(match):
         link = match.group()[match.group().rfind('[')+1:match.group().rfind(']')-1]

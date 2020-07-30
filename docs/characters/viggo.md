@@ -2,20 +2,16 @@
 
 **Viggo** is a field medic in the [Ilrian Military](the_royal_ilrian_military.md). In a previous life, he was known as Ino, growing up as an acolyte in the [The Church of the Triumvirate](the_church_of_the_triumvirate.md). He has a strong will to help others, but often mistrusts authority figures. Although he no longer follows the [Caeteran](caeteran.md) religion, he unwittingly still follows many of their beliefs in balance and equality.
 
-<div markdown="1" class="sidebar">
-![Viggo](viggo.png)
-## Viggo
-
-|||
-|-|-|
-| Also Known As | Ino |
-| Race  | Human  |
-| Profession | [Caeteran Acolyte](caeteran.md) <br> [Field Medic](the_royal_ilrian_military.md) |
-| Birthplace | [Kador](kador.md) |
-| Born | 258 [*OE*](era.md) |
-| Age | 28 years | 
-| Parents | [Misha (Mother)](misha.md) <br> [Kazamir (Father)](kazamir.md)|
-</div>
+{{person(
+title="Viggo",
+image="/images/viggo.png",
+parents="[[misha.md|Misha (Mother)]] <br> [[kazamir.md|Kazamir (Father)]]",
+born="258 [[era.md|O.E.]]",
+birthplace="[[arkesh.md]]",
+aliases="Ino",
+ethnicity="[[antuza.md|Antuzan]]",
+occupations="[[caeteran.md|Caeteran Acolyte]] <br> [[the_royal_ilrian_military.md|Field Medic]]"
+)}}
 
 ## History
 
