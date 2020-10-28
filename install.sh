@@ -1,7 +1,7 @@
 # Install mkdocs and all dependencies, including themes, markdown extensions, and mkdocs plugins
-pip3 install mkdocs \
+pip3 install --upgrade mkdocs \
 	mkdocs-bootswatch \
-	mkdocs-material \
+	mkdocs-material==1.5.1 \
 	mkdocs-awesome-pages-plugin \
 	mkdocs-macros-plugin \
 	mdx_truly_sane_lists \
